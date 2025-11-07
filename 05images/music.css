@@ -1,0 +1,170 @@
+body {
+    font-family: "DM Serif Text", serif;
+    margin: 0;
+}
+
+/* header css stuff here */
+header {
+    background-color: #839eaa;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: #efefef;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+/*navigation stuff here */
+nav {
+    background-color: #ecb251;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #1a2e4f;
+    font-weight: 700;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+nav li.active a {
+    background-color: #1a2e4f;
+    color: #ecb251;
+}
+
+/* main stuff here */
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #1a2e4f
+}
+
+main h2 {
+    color: #1a2e4f;
+    margin-bottom: .2rem;
+}
+
+main p {
+    margin: 0;
+    color: #333;
+}
+
+main ol {
+    padding: .5rem 30px;
+    background-color: #839eaa;
+}
+
+main dl dt {
+    color: #b75c86;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+main dl dd {
+    color: #1a2e4f;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main strong {
+    font-weight: 700;
+    color: black;
+
+}
+
+main em {
+    font-weight: 300;
+}
+
+main address {
+    font-style: normal;
+    color: #eaeaea;
+    background-color: #6f9786;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px solid #1a2e4f;
+    width: 200px;
+}
+
+main a {
+    color: #3b5449;
+
+}
+
+main a:hover {
+    color: #b75c86;
+}
+
+/* main image stuff here */
+figure.notes {
+    margin: 0 0 0 50px;
+    width: 40%;
+    float: right;
+}
+
+figure.notes img {
+    width: 50%;
+    height: auto;
+}
+
+figure.notes figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+/* gallery stuff here */
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+}
+
+div.gallery figure {
+    margin: 0;
+
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #b64e11;
+}
+/* footer stuff here */
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 1rem;
+    font-size: .8rem;
+    color: #333;
+}
+
+footer p {
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+/* clear:both tag stuff here???*/
