@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Emily Gold">
+    <meta name="description"
+        content="Site Goal: Give musicians access to as much sheet music as possible, and know where they can get their sheet music to buy or for free. ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="music.css">
+    <title>Sheet Music Central: About Us</title>
+</head>
+
+<body>
+    <header>
+        <span>Sheet Music Central</span>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">About Us</a></li>
+            <li><a href="band.html">Band Music</a></li>
+            <li><a href="choir.html">Choir Music</a></li>
+            <li><a href="orchestra.html">Orchestra Music</a></li>
+            <li><a href="ensemble.html">Small Ensemble</a></li>
+            <li><a href="piano.html">Piano Music</a></li>
+            <li class="active"><a href="orderform.html">Place an Order</a></li> 
+
+        </ul>
+
+    </nav>
+
+    <main>
+         <h1>Place an Order</h1>
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Cell Phone*<input type="tel" name="phone" required placeholder="123-456-7890"></label>
+                <label>Email*<input type="email" name="email" required placeholder="noreply@example.com"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Order Type</legend>
+                <label><input type="radio" name="method" value="physical">Physic Copy</label>
+                <label><input type="radio" name="method" value="pdf">Downloadable PDF</label>
+                <label><input type="radio" name="method" value="audio">MP3 Audio</label>
+                 <label><input type="radio" name="method" value="both">MP3 and PDF</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Parts</legend>
+                <label><input type="checkbox" name="score" value="chosen"> Full Orchestral Score</label>
+                <label><input type="checkbox" name="piano" value="chosen"> Piano Score</label>
+                <label><input type="checkbox" name="ensemble" value="chosen"> Ensemble Parts</label>
+                <label><input type="checkbox" name="choral" value="chosen"> Choir parts</label>
+            </fieldset>
+
+            <fieldset>
+                <label>Choir Music Selection
+                    <select name="choir">
+                        <option value="none">Please Select</option>
+                        <option value="faithful">O Come All Ye Faithful</option>
+                        <option value="noel">Noel (He is Born)</option>
+                        <option value="christmasday">Christmas Day</option>
+                        <option value="joy">Joy to the World</option>
+                        <option value="testimony">Testimony</option>
+                        <option value="love">O Love</option>
+                        <option value="blessed">I'm So Blessed</option>
+                        <option value="fighting">Fighting for Us</option>
+                    </select>
+                </label>
+                <label>Band Music Selection
+                    <select name="choir">
+                        <option value="none">Please Select</option>
+                        <option value="Maslanka">Illumination: David Maslanka</option>
+                        <option value="Mueller">Big Adventure</option>
+                        <option value="Herndon">Begin Transmission</option>
+                    </select>
+                </label>
+            </fieldset>
+
+
+            <label>Comments
+                <textarea name="comments"></textarea>
+            </label>
+
+            <input type="submit" value="Send Delivery Request">
+        </form>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 &bull; Emily Gold &bull; Web Essentials</p>
+    </footer>
+</body>
+
+</html>
